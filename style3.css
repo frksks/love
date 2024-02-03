@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous');
+
+body {
+    background-image: url('lyrics.jpg');
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text h1 {
+    margin: -10%;
+    font-size: clamp(40px, 60vw, 60px);
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.navbar {
+  background-color: transparent;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+.song {
+    align: center;
+}
